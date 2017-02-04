@@ -42,5 +42,10 @@
     "webpack": "2.1.0-beta.22",
     "webpack-dev-server": "2.1.0-beta.1",
     "webpack-zepto": "0.0.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "webpack.base.config.js",
+  "keywords": [
+    "vue"
+  ]
 }

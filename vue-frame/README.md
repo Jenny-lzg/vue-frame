@@ -19,6 +19,11 @@ npm run build
 ```
 ## Options
 
+# 安装运行开发环境报错：Node Sass could not find a binding for your current environment: Windows 32-bit with Node.js 6.x ……
+# 执行下段命令     参考：http://blog.csdn.net/u010116861/article/details/51886550
+npm rebuild node-sass 
+# 执行上段命令后，再执行npm run dev
+
 Option  | Description
 ---|---
 aroud | 日期范围,如当前日期为2016/12/25 around为3 则显示2016/12 2017/01 2017/02 3个月
