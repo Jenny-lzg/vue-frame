@@ -22,3 +22,22 @@ exports.inforTravsta = travstate => {
 	}
 	return statetext;
 }
+
+/*getTime*/
+/**格式化时间
+	 *  @param {getTime} s 秒
+	 */
+exports.getTime = (s) => {
+	var mi = s;
+	if(mi >= 0) {
+		var s = mi;
+		var day = Math.floor(s / (3600 * 24));
+		var hours = Math.floor(s / 3600) - Math.floor(s / (3600 * 24)) * 24;
+		var minutes = Math.floor(s / 60) - Math.floor(s / 3600) * 60;
+		var second = Math.floor(s) - Math.floor(s / 60) * 60;
+		var time = (day == 0 ? '' : day + '天') + hours + '小时' + minutes + '分' + second + '秒'
+		return time;
+	} else {
+		return '0小时0分0秒';
+	}
+}
