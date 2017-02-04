@@ -16,13 +16,16 @@ npm run init
 npm run dev
 # build for production with minification(生产环境)
 npm run build
-```
-## Options
 
 # 安装运行开发环境报错：Node Sass could not find a binding for your current environment: Windows 32-bit with Node.js 6.x ……
 # 执行下段命令     参考：http://blog.csdn.net/u010116861/article/details/51886550
 npm rebuild node-sass 
 # 执行上段命令后，再执行npm run dev
+
+```
+## Options
+
+
 
 Option  | Description
 ---|---
