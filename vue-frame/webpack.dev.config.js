@@ -1,5 +1,5 @@
 /**
- * Create by panwenhua on 16/11/1.
+ * Create by ** on 16/11/1.
  * 
  */
 var webpack = require('webpack');
