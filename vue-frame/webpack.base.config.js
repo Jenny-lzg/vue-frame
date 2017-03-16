@@ -1,5 +1,5 @@
 /**
- * Create by panwenhua on 16/11/1.
+ * Create by jenny on 16/11/1.
  * 
  */
 var path = require('path');
